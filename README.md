@@ -1,6 +1,10 @@
 # pagination
 生成pagination数据对象
 
+## 安装
+
+`npm install --save nil-pagination`
+
 ## 构造函数
 
 `Pagination({
