@@ -1,5 +1,5 @@
 {
-    "name": "pagination",
+    "name": "nil-pagination",
     "version": "1.0.0",
     "description": "生成pagination数据对象",
     "main": "lib/index.js",
