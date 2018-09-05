@@ -51,3 +51,16 @@ pagination.next();
 console.log( pagination.getCurrentRange() );
 
 ```
+
+```
+//getCurrentRange() 返回示例
+[ { page: 1, isCurrent: false },
+  { page: null, isPreviousMore: true },
+  { page: 7, isCurrent: false },
+  { page: 8, isCurrent: false },
+  { page: 9, isCurrent: true },
+  { page: 10, isCurrent: false },
+  { page: 11, isCurrent: false },
+  { page: null, isNextMore: true },
+  { page: 17, isCurrent: false } ]
+```
