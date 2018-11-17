@@ -1,34 +1,27 @@
 {
-    "name": "nil-pagination",
+    "name": "bplokjs-pagination",
     "version": "1.0.0",
     "description": "生成pagination数据对象",
-    "main": "lib/index.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node build/start",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nil-helpers/pagination.git"
+        "url": "git+https://github.com/bplokjs/pagination.git"
     },
-    "keywords": [
-        "pagination"
-    ],
-    "author": "",
-    "license": "MIT",
     "files": [
-        "lib",
-        "*.md"
+        "*.md",
+        "*.js"
     ],
+    "keywords": [],
+    "author": "nobo.zhou@foxmail.com",
+    "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nil-helpers/pagination/issues"
+        "url": "https://github.com/bplokjs/pagination/issues"
     },
-    "homepage": "https://github.com/nil-helpers/pagination#readme",
-    "devDependencies": {
-        "transform-es": "^1.4.1"
-    },
+    "homepage": "https://github.com/bplokjs/pagination#readme",
     "dependencies": {
-        "@babel/runtime": "^7.0.0",
-        "@babel/runtime-corejs2": "^7.0.0"
+        "pagination-store": "^1.0.0"
     }
 }
